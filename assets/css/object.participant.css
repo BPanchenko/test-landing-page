@@ -1,0 +1,23 @@
+.o-participant {
+	display: block;
+	inline-size: ;
+}
+
+.o-participant-list {
+	.control {
+
+	}
+	
+	[role="list"] {
+		outline: 1px dotted orange;
+	}
+
+	[role="listitem"] {
+		outline: 1px dashed black;
+	}
+
+	display: flex;
+
+	outline: 1px dotted cyan;
+	width: inherit;
+}

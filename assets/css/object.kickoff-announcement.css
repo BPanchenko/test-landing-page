@@ -1,0 +1,5 @@
+.o-kickoff-announcement {
+	table {
+		font-feature-settings: 'pnum' on, 'lnum' on;
+	}
+}

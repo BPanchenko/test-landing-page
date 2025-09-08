@@ -1,0 +1,17 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: var(--back-color);
+	margin: unset;
+	scroll-behavior: smooth;
+
+	font-family: var(--default-font);
+	font-size: var(--text-size);
+	text-rendering: optimizeSpeed;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+	font-family: var(--accent-font);
+}

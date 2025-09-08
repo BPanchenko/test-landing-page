@@ -1,0 +1,16 @@
+.c-logo {
+	display: flex;
+	column-gap: 0.6rem;
+	color: var(--logo-color);
+	font-family: var(--default-font);
+	font-size: 1.6rem;
+	line-height: 1.8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-feature-settings: 'pnum' on, 'lnum' on;
+
+	img {
+		inline-size: 9.8rem;
+		block-size: 3.6rem;
+	}
+}

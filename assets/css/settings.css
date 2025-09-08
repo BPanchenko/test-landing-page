@@ -1,0 +1,63 @@
+/* COLOURS */
+
+@property --back-color {
+	syntax: "<color>";
+	initial-value: white;
+	inherits: true;
+}
+
+@property --fore-color {
+	syntax: "<color>";
+	initial-value: black;
+	inherits: true;
+}
+
+@property --logo-color {
+	syntax: "<color>";
+	initial-value: #595653;
+	inherits: false;
+}
+
+@property --text-color {
+	syntax: "<color>";
+	initial-value: #313131;
+	inherits: false;
+}
+
+@property --gray-12 {
+	syntax: "<color>";
+	initial-value: #1F1F1F;
+	inherits: false;
+}
+
+@property --gray-84 {
+	syntax: "<color>";
+	initial-value: #D6D6D6;
+	inherits: false;
+}
+
+@property --orange-2 {
+	syntax: "<color>";
+	initial-value: #FBCE51;
+	inherits: false;
+}
+
+/* TYPOGRAFY */
+
+@property --accent-font {
+	syntax: "<custom-ident>#";
+	initial-value: merriweather, sans-serif;
+	inherits: false;
+}
+
+@property --default-font {
+	syntax: "<custom-ident>#";
+	initial-value: golos-text, system-ui;
+	inherits: false;
+}
+
+@property --text-size {
+	syntax: "<length>";
+	initial-value: 2rem;
+	inherits: false;
+}
