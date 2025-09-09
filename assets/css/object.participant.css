@@ -1,23 +1,83 @@
-.o-participant {
+figure.o-participant {
 	display: block;
-	inline-size: ;
+	flex-grow: 1;
+	flex: none;
+	order: 0;
+	margin: 0;
+	width: 39.4rem;
+	text-align: center;
+
+	.avatar {
+		display: inline-block;
+		background-image: url('../png/avatar.background.png');
+		background-size: cover;
+		block-size: 32rem;
+		border-radius: 50%;
+		inline-size: 32rem;
+		overflow: hidden;
+		text-align: center;
+		
+		img {
+			display: inline-block;
+			margin-block-start: 2.1rem;
+		}
+	}
+
+	figcaption {
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		row-gap: 0.6rem;
+		margin-block-start: 2.8rem;
+
+		a[role=button] {
+			margin-block-start: 1.4rem;
+		}
+
+		.class {
+			color: var(--gray-51);
+			font-size: 2rem;
+			font-weight: 400;
+			line-height: 2.4rem;
+		}
+
+		.name {
+			font-weight: 600;
+			font-size: 2.4rem;
+			line-height: 2.8rem;
+			margin: 0;
+		}
+	}
 }
 
 .o-participant-list {
-	.control {
+	flex: none;
+	overflow: scroll;
+	outline: 1px dotted cyan;
+	width: inherit;
 
+	header {
+		display: flex;
+		flex-direction: row;
+		
+		.control {
+
+		}
 	}
 	
 	[role="list"] {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		column-gap: 2rem;
+		padding-bottom: ;
 		outline: 1px dotted orange;
 	}
 
-	[role="listitem"] {
-		outline: 1px dashed black;
+	header + [role="list"] {
+		margin-top: 6rem;
+		outline: 1px dotted cyan;
 	}
-
-	display: flex;
-
-	outline: 1px dotted cyan;
-	width: inherit;
 }

@@ -19,6 +19,15 @@
 @font-face {
 	font-family: golos-text;
 	font-style: normal;
+	font-weight: 600;
+	src: 
+		url(../woff/golos-text_demibold.woff2) format('woff2'),
+		url(../woff/golos-text_demibold.woff) format('woff');
+}
+
+@font-face {
+	font-family: golos-text;
+	font-style: normal;
 	font-weight: 700;
 	src: 
 		url(../woff/golos-text_bold.woff2) format('woff2'),

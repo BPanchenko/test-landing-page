@@ -1,3 +1,6 @@
+a[role=button] {
+	--color: #3057A2;
+}
 
 /* layout */
 
@@ -15,7 +18,7 @@ a[role=button] {
 	box-sizing: border-box;
 	min-block-size: 3.6rem;
 	overflow: hidden;
-	padding: 0.9rem 1.2rem;
+	padding: 0.6rem 1.2rem;
 }
 
 /* painting */
@@ -31,7 +34,7 @@ a[role=button] {
 	text-align: center;
 	
 	border-style: solid;
-	border-width: 0.1rem;
+	border-width: 0.2rem;
 
 	transition-duration: 160ms;
 	transition-property: background-color, border-color, border-width, color;
@@ -42,12 +45,12 @@ a[role=button] {
 
 a[role=button] {
 	background-color: transparent;
-	border-color: var(--gray-12);
-	color: var(--gray-12);
+	border-color: var(--color);
+	color: var(--color);
 
 	&:hover,
 	&.s-primary {
-		background-color: var(--gray-12);
+		background-color: var(--color);
 		border-color: transparent;
 		color: white;
 	}

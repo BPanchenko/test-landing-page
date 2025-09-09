@@ -1,8 +1,9 @@
 .o-page-header {
 	a[role=button] {
-		border-width: 0.2rem;
+		--color: var(--gray-12);
 		padding: 1.4rem 2rem;
 		min-inline-size: 26.4rem;
+		min-block-size: 7.2rem;
 	}
 	
 	.u-grouping {

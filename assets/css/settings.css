@@ -30,6 +30,12 @@
 	inherits: false;
 }
 
+@property --gray-51 {
+	syntax: "<color>";
+	initial-value: #828282;
+	inherits: false;
+}
+
 @property --gray-84 {
 	syntax: "<color>";
 	initial-value: #D6D6D6;
